@@ -1,0 +1,254 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  padding: 50px 0;
+}
+
+.signup-btn {
+  border: 2px solid #f53855 !important;
+  background: none;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+.primary-text {
+  color: #f53838 !important;
+}
+.primary {
+  color: white !important;
+  background: #f53838 !important;
+  border: none;
+}
+.btn-primary {
+  box-shadow: 0 10px 10px #f538381f;
+  padding: 10px 40px;
+}
+.row {
+  align-items: center;
+}
+.col-6 {
+  align-items: center;
+}
+.col-6 img {
+  align-self: center;
+  width: 100%;
+  max-width: 600px;
+}
+.info {
+  padding: 80px;
+}
+.info h1 {
+  margin-bottom: 30px;
+}
+
+.info p {
+  margin-bottom: 30px;
+}
+
+.info h4 {
+  margin-bottom: 30px;
+}
+.info button {
+  margin: 0 auto;
+}
+
+.col-sm-8 {
+  padding: 60px 0;
+  margin: 50px auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 50px 100px rgba(0, 0, 0, 0.116);
+  border-radius: 20px;
+}
+
+.states {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.list {
+  margin-bottom: 5px;
+}
+.list img {
+  max-width: 20px;
+}
+
+.list span {
+  font-size: 14px;
+}
+.gray {
+  background-color: #f6f6f660;
+  padding: 50px 0;
+}
+.gray h1 {
+  margin: 20px 0;
+}
+.mt-30 {
+  margin-top: 70px !important;
+}
+
+.subscription {
+  justify-content: space-evenly;
+}
+.plan {
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.plan-features {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.plan h5 {
+  margin: 30px 0;
+}
+.buy {
+  margin-top: 50px;
+}
+.plan h4 {
+  font-size: 20px;
+}
+.plan button {
+  padding: 5px 40px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 10px 10px #f538381f;
+}
+
+.plan button:hover {
+  color: white;
+  background: #f53838 !important;
+  box-shadow: 0 10px 10px #f538383b;
+}
+
+.plan-features .list img {
+  width: 40px;
+}
+
+.map img {
+  width: 100%;
+}
+
+.col-md-6 img {
+  width: 100%;
+}
+.col-sm-2 {
+  text-align: center;
+}
+
+.col-sm-2 img {
+  width: 100%;
+  max-width: 150px;
+  margin: auto;
+}
+.brands {
+  align-items: center;
+  justify-content: space-evenly !important;
+}
+
+.testimonials_header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.user {
+  flex: 1;
+  text-align: center;
+}
+.user p {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 10px;
+}
+
+.star {
+  color: yellow;
+  padding: 0 10px;
+}
+
+.testimonials_text {
+  padding: 10px;
+}
+.testimonials {
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.testimonials:hover {
+  border: 2px solid #f53838;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.061);
+}
+
+.footer {
+  align-items: flex-start;
+}
+
+.footer .col-sm ul {
+  list-style: none;
+}
+
+.nav-link {
+  color: black;
+  transition: 0.2s;
+}
+.nav-link:hover {
+  color: #f53838;
+}
+
+@media (max-width: 756px) {
+  .info {
+    padding: 30px;
+  }
+  .subscription {
+    align-items: center;
+  }
+  .plan {
+    margin: 10px;
+    padding: 20px;
+  }
+  .col-sm-2 img {
+    margin: 10px 0;
+  }
+  .col-sm-4 {
+    margin: 10px;
+  }
+  .col-sm-8 {
+    flex-direction: column;
+  }
+  .states {
+    flex-basis: 100%;
+    width: 100%;
+    padding: 20px;
+    justify-content: start;
+  }
+
+  .detail {
+    flex: 1;
+    text-align: center;
+  }
+
+  .footer .col-sm {
+    text-align: center;
+  }
+}
